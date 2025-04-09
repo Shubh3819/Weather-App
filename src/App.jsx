@@ -20,7 +20,7 @@ function App() {
   const [suggestion, setSuggestion] = useState([]);
   const [unit, setUnit] = useState('C');
   const [error, setError] = useState('');
-  const API_key = '475637f4a26c34b0312f34761610dde2';
+  const API_key = import.meta.env.VITE_OPENWEATHERMAP_API_KEY;
 
   useEffect(() => {
     if (city.trim().length > 3 && !weather) {
