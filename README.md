@@ -24,8 +24,6 @@ Tailwind CSS
 
 OpenWeatherMap API
 
-React Helmet (for SEO meta tags)
-
 CSS animations & responsive design
 
 📦 How to Run
