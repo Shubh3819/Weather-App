@@ -1,4 +1,5 @@
-🌤️ Weather App
+`🌤️ Weather App`
+
 The Weather App is a sleek, responsive React-based application that provides real-time weather updates for any city using the OpenWeatherMap API. It features dynamic suggestions as you type, animated weather icons, temperature conversion (Celsius ↔ Fahrenheit), and key weather metrics like humidity, wind speed, and visibility — all wrapped in a beautiful, modern UI.
 
 ✨ Features
