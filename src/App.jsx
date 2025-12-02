@@ -21,7 +21,7 @@ function App() {
   const [unit, setUnit] = useState('C');
   const [error, setError] = useState('');
   const API_key = import.meta.env.VITE_OPENWEATHERMAP_API_KEY;
-
+  
   useEffect(() => {
     if (city.trim().length > 3 && !weather) {
       const timer = setTimeout(() => fetchSuggestion(city), 500);
