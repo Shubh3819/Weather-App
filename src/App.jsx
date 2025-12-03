@@ -32,7 +32,7 @@ function App() {
   const fetchSuggestion = async (query) => {
     try {
       const res = await fetch(
-        `http://api.openweathermap.org/geo/1.0/direct?q=${query}&limit=5&appid=${API_key}`
+        `https://api.openweathermap.org/geo/1.0/direct?q=${query}&limit=5&appid=${API_key}`
       );
       if (res.ok) {
         setSuggestion(await res.json());
@@ -65,7 +65,7 @@ function App() {
     e.preventDefault();
     if (!city.trim()) return setError('Please enter a valid city name');
     await fetchWeatherData(
-      `http://api.openweathermap.org/data/2.5/weather?q=${city.trim()}&appid=${API_key}&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city.trim()}&appid=${API_key}&units=metric`
     );
   };
 
@@ -104,7 +104,7 @@ function App() {
                       key={`${s.lat}-${s.lon}`}
                       onClick={() =>
                         fetchWeatherData(
-                          `http://api.openweathermap.org/data/2.5/weather?lat=${s.lat}&lon=${s.lon}&appid=${API_key}&units=metric`,
+                          `https://api.openweathermap.org/data/2.5/weather?lat=${s.lat}&lon=${s.lon}&appid=${API_key}&units=metric`,
                           `${s.name}, ${s.country}${s.state ? `, ${s.state}` : ''}`
                         )
                       }
