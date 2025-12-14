@@ -6,46 +6,38 @@ The Weather App is a modern, responsive React application that delivers real-tim
 
 Features
 
--Live city search with auto-suggestions: Provides instant suggestions as users type, improving search accuracy and speed.
+- Live city search with auto-suggestions: Provides instant suggestions as users type, improving search accuracy and speed.
 
--Real-time weather data: Displays updated temperature, weather conditions, and essential metrics.
+- Real-time weather data: Displays updated temperature, weather conditions, and essential metrics.
 
--Temperature unit toggle: Allows users to switch seamlessly between Celsius and Fahrenheit.
+- Temperature unit toggle: Allows users to switch seamlessly between Celsius and Fahrenheit.
 
--Weather-based visuals: Includes animated icons and adaptive backgrounds that reflect current conditions.
+- Weather-based visuals: Includes animated icons and adaptive backgrounds that reflect current conditions.
 
--Detailed metrics: Shows humidity, wind speed, visibility, pressure, and other key indicators.
+- Detailed metrics: Shows humidity, wind speed, visibility, pressure, and other key indicators.
 
--Sunrise and sunset information: Presents accurate local time for sunrise and sunset.
+- Sunrise and sunset information: Presents accurate local time for sunrise and sunset.
 
--Responsive design: Works smoothly across desktops, tablets, and mobile devices.
+- Responsive design: Works smoothly across desktops, tablets, and mobile devices.
 
--Error handling: Detects invalid city names, missing data, or API issues and displays clear feedback.
+- Error handling: Detects invalid city names, missing data, or API issues and displays clear feedback.
 *****************************************************************
-Tech Stack
-
-React.js
-
-Tailwind CSS
-
-OpenWeatherMap API
-
-Custom CSS animations
-
-Fully responsive UI design
+**Tech Stack**
+- React.js
+- Tailwind CSS
+- OpenWeatherMap API
+- Custom CSS animations
+- Fully responsive UI design
 ************************************************************
 **How to Run**
-
-Clone the repository.(npm i "link of the repo")
-
-Install dependencies with npm install.(npm i or npm install)
-
-Add your OpenWeatherMap API key inside the App.jsx file.(or in an .env file and then import it)
-
-Start the development server using npm start.
+- Clone the repository.(npm i "link of the repo")
+- Install dependencies with npm install.(npm i or npm install)
+- Add your OpenWeatherMap API key inside the App.jsx file.(or in an .env file and then import it)
+- Start the development server using npm start.
 
 <img width="1920" height="1008" alt="Screenshot 2025-12-15 024107" src="https://github.com/user-attachments/assets/c58e694b-0566-46e7-96e1-ec392cfb090e" />
 
 
 <img width="1920" height="1008" alt="Screenshot 2025-12-15 024055" src="https://github.com/user-attachments/assets/a37a1e0b-d119-47c0-b02a-d073bffaf924" />
+
 
